@@ -33,9 +33,22 @@ h2 {
   margin: auto 10px;
 }
 
+#footer p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+}
+
 #container {
 	width: 750px;
 	margin: 0 auto;
+}
+
+#footer {
+  clear: both;
+  width: 474px;
+  background-color: #2c303b;
+  float: left;
 }
 
 #main {
