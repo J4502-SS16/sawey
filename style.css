@@ -1,1 +1,85 @@
 css style file
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 50px;
+	padding-top: 15px;
+  color: #2c303b;
+  text-align: center;
+}
+
+.pic {
+  width: 474px;
+  float: left;
+  margin-right: 5px;
+  border-style: none; /*need this for assignment!*/
+}
+
+#container p {
+  font-family: Helvetica, Arial,sans-serif;
+  color: #daa520;
+}
+
+#sidebar p {
+  color: #ffffff;
+  text-align: center;
+}
+
+#main p {
+  margin: auto 10px;
+}
+
+#container {
+	width: 750px;
+	margin: 0 auto;
+}
+
+#main {
+  background-color: #eaedc1;
+  width: 474px;
+  height: 700px;
+  float: left;
+}
+
+#sidebar {
+	background-color: #ddd;
+	width: 200px;
+  height: 700px;
+	float: right;
+	padding-left: 15px;
+  border-left: 5px solid #ccc;
+  border-right: 5px solid #ccc;
+  border-top: 5px solid #ccc;
+  border-bottom: 5px solid #ccc;
+}
+
+#nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#nav li {
+	float: left;
+
+}
+
+#nav a:link, #nav a:visited {
+	font-weight: lighter;
+	text-align: center;
+	text-decoration: none;
+	padding: 4px 4px;
+	color: #000000;
+	background-color: #d0e9e1;
+	display: block;
+	width: 150px;
+}
+
+#nav a:hover, #nav a:active {
+	background-color: #2c303b;
+  color: #ffffff
+}
